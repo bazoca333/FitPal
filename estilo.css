@@ -3,3 +3,13 @@ a{
     color: black;
     padding: 3%;
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 25px;
+}
+
+.macro{
+    width: 300px;
+}
