@@ -14,6 +14,39 @@ table, th, td {
     width: 300px;
 }
 
+body{
+    margin: 0px;
+   }
+
+.div-footer {
+    background-color: rgb(121, 121, 121);
+    padding: 40px; 
+    display: flex; 
+    justify-content: center;
+     bottom: 0;
+    position: fixed; 
+    width: 100%;
+}
+
+.logo-footer {
+    margin-left: 45%;
+}
+
+.redes{
+    margin-left: 20%;
+    
+}
+
+.redes a {
+    margin: 16px;
+}
+
+.nosotros2  a {
+color: aqua;
+margin: 0;
+padding: 0;
+}
+
 .dietas{
 display: flex;
 flex-direction: row;
