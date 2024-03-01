@@ -13,3 +13,11 @@ table, th, td {
 .macro{
     width: 300px;
 }
+
+.dietas{
+display: flex;
+flex-direction: row;
+}
+.dietasBoton img{
+width: 50%;
+}
