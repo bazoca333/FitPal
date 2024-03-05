@@ -13,32 +13,39 @@ table, th, td {
 .macro{
     width: 300px;
 }
-
 body{
     margin: 0px;
    }
 
 .div-footer {
-    background-color: rgb(121, 121, 121);
-    padding: 40px; 
-    display: flex; 
-    justify-content: center;
-     bottom: 0;
+    background-color: rgb(9, 207, 9);
+    /* padding: 20px;  */
+     display: flex;  
+    justify-content: center; 
+    display: inline;
+    bottom: 0;
     position: fixed; 
     width: 100%;
 }
 
-.logo-footer {
-    margin-left: 45%;
+.logo-footer img {
+    width: 8%;
+    position: relative;
+    top: 40px;
+    left: 100px;
+  }
+.texto-footer{
+    color: white;
+    margin-left: 30%;
 }
 
 .redes{
     margin-left: 20%;
-    
 }
 
 .redes a {
     margin: 16px;
+    color: white;
 }
 
 .nosotros2  a {
@@ -54,3 +61,30 @@ flex-direction: row;
 .dietasBoton img{
 width: 50%;
 }
+
+.menu {
+    background-color: rgb(9, 207, 9);
+    justify-content: end;
+}
+
+.menu nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;    
+}
+
+.menu nav ul li {
+    display: inline-block;
+}
+
+.menu nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
