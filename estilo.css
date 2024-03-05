@@ -17,8 +17,8 @@ body{
     margin: 0px;
    }
 
-.div-footer {
-    background-color: rgb(9, 207, 9);
+footer {
+    background-color: rgb(55, 185, 55);
     /* padding: 20px;  */
      display: flex;  
     justify-content: center; 
@@ -63,7 +63,7 @@ width: 50%;
 }
 
 .menu {
-    background-color: rgb(9, 207, 9);
+    background-color: rgb(38, 190, 38);
     justify-content: end;
 }
 
