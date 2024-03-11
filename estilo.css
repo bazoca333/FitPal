@@ -19,9 +19,7 @@ body{
 
  .footer-container {
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    margin-bottom: -1%;
+    margin-bottom: -2.4%;
 }
 
 .redes{
@@ -31,6 +29,14 @@ body{
     color: rgb(255, 255, 255);
     padding: 20px;
 } 
+
+.logo-footer {
+    margin-left: 20%;
+}
+
+.txt-footer {
+    margin-left: 10%;
+}
 .nosotros2  a {
 color: aqua;
 margin: 0;
