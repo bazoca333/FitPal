@@ -17,48 +17,20 @@ body{
     margin: 0px;
    }
 
-
-
-
-
-
-
-
-
-footer {
-    background-color: rgb(66, 172, 66);
+ .footer-container {
     width: 100%;
-    height: 75px;
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-around;
-    /* bottom: 0;
-    position: fixed;      */
-}
-
-footer img {
-    
-    width: 80px;
-    height: 40px; 
-    margin-top: 18px;
-  }
-
-.texto-footer{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-    margin-top: 30px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: -1%;
 }
 
 .redes{
-    margin-top: 33px;
+    margin-right: 5%;
 }
-
 .redes a {
-    color: white;
+    color: rgb(66, 172, 66);
     padding: 20px;
-}
-
+} 
 .nosotros2  a {
 color: aqua;
 margin: 0;
@@ -77,41 +49,21 @@ width: 50%;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-.menu {
+.bg-person {
     background-color: rgb(66, 172, 66);
-    justify-content: end;
+    width: 100%;
 }
 
-.menu nav ul {
-    padding: 0;
-    margin: 0;
-    display: flex;    
-}
+.nav-link {
+    transition: transform 0.3s;
+  }
+  
+  .nav-link:hover {
+    transform: scale(1.3); 
+  }
 
-.menu nav ul li {
-    display: inline-block;
-}
 
-.menu nav ul li a {
-    display: block;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
 
-.menu nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
+
+
 
