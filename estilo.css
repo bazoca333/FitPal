@@ -13,13 +13,14 @@ table, th, td {
 .macro{
     width: 300px;
 }
-.test{
+/* .test{
     background-color: rgba(197, 186, 186, 0.445);
-}
+} */
+
 body{
     margin: 0px;
     background-size: cover;
-    background-image: url(https://cdn.pixabay.com/photo/2015/02/06/01/14/wallpaper-625623_1280.png);
+    /* background-image: url(https://cdn.pixabay.com/photo/2015/02/06/01/14/wallpaper-625623_1280.png); */
 }
 
 
