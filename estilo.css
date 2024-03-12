@@ -13,13 +13,21 @@ table, th, td {
 .macro{
     width: 300px;
 }
+
+.card{
+    transition: transform 0.3s; 
+}
+.card:hover{
+    transform: scale(1.05); 
+      
+}
 .test{
     background-color: rgba(197, 186, 186, 0.445);
 }
 body{
     margin: 0px;
     background-size: cover;
-    background-image: url(https://cdn.pixabay.com/photo/2015/02/06/01/14/wallpaper-625623_1280.png);
+    /* background-image: url(https://cdn.pixabay.com/photo/2015/02/06/01/14/wallpaper-625623_1280.png); */
 }
 
 
@@ -54,10 +62,6 @@ body{
     margin-left: 10%;
 }
 
-
-
-
-
 .nosotros2  a {
 color: aqua;
 margin: 0;
@@ -74,10 +78,20 @@ padding-left: 7%;
     padding: 3%;
 }
 
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    background-image: radial-gradient(circle, #553c9a, #ee4b2b);;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
 
 .tablaDietaEst{
-    margin: auto;
+    margin-left: 35%;
 }
+
 
 
 
