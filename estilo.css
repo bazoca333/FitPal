@@ -17,6 +17,17 @@ body{
     margin: 0px;
    }
 
+
+
+   .nav-link {
+    transition: transform 0.3s;
+  }
+  
+  .nav-link:hover {
+    transform: scale(1.3); 
+  }
+
+
  .footer-container {
     width: 100%;
     margin-bottom: -2.4%;
@@ -37,6 +48,11 @@ body{
 .txt-footer {
     margin-left: 10%;
 }
+
+
+
+
+
 .nosotros2  a {
 color: aqua;
 margin: 0;
@@ -54,19 +70,15 @@ width: 50%;
 
 
 
+#myCarousel{
+    height: 300px;
+}
+
 
 .bg-person {
     background-color: rgb(66, 172, 66);
     width: 100%;
 }
-
-.nav-link {
-    transition: transform 0.3s;
-  }
-  
-  .nav-link:hover {
-    transform: scale(1.3); 
-  }
 
 
 
