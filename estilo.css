@@ -15,6 +15,7 @@ table, th, td {
 }
 body{
     margin: 0px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/011/871/766/non_2x/blurred-abstract-green-nature-concept-background-design-and-advertising-wallpaper-website-advertising-banner-free-photo.jpg");
    }
 
 
@@ -62,9 +63,13 @@ padding: 0;
 .dietas{
 display: flex;
 flex-direction: row;
+padding-left: 7%;
 }
-.dietasBoton img{
+
+.dietasBoton{
+    padding: 3%;
 }
+
 
 .tablaDietaEst{
     margin: auto;
