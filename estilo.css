@@ -14,9 +14,11 @@ table, th, td {
     width: 300px;
 }
 body{
+    color: aliceblue;
     margin: 0px;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/011/871/766/non_2x/blurred-abstract-green-nature-concept-background-design-and-advertising-wallpaper-website-advertising-banner-free-photo.jpg");
-   }
+    background-image: url(https://media.istockphoto.com/id/1287504319/es/foto/equipo-de-fitness-en-el-suelo-en-el-gimnasio.jpg?s=1024x1024&w=is&k=20&c=rxjhQB3AMuJEsxJlKgNv8krJD2oRMsx_jRr1H9PdOcM=);
+    background-size: cover;
+}
 
 
 
