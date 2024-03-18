@@ -43,6 +43,9 @@ body{
     margin-bottom: -2.4%;
 }
 
+
+
+
 .redes{
     margin-right: 5%;
 }
@@ -89,21 +92,12 @@ padding-left: 7%;
     margin-left: 35%;
 }
 
-
-
-
 #myCarousel{
     height: 300px;
+    margin-bottom: 13%;
+    margin-top: -0.05%;
 }
 
-
-.bg-person {
-    background-color: rgb(66, 172, 66);
-    width: 100%;
+.carousel-control-prev , .carousel-control-next {
+    margin-top: 10%;
 }
-
-
-
-
-
-
