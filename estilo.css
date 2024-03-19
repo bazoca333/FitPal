@@ -4,15 +4,6 @@
     padding: 3%;
 } */
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 25px;
-}
-
-.macro{
-    width: 300px;
-}
 .card{
     transition: transform 0.3s; 
 }
@@ -25,7 +16,19 @@ body{
     margin: 0px;
     background-size: cover;
     /* background-image: url(https://cdn.pixabay.com/photo/2015/02/06/01/14/wallpaper-625623_1280.png); */
+    
 }
+
+.container {
+    --color1: rgb(0, 3, 49);
+    --color2: rgb(248, 255, 182);
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, var(--color2) 25%, transparent 25%, transparent 75%, var(--color2) 75%, var(--color2)), 
+                      linear-gradient(135deg, var(--color2) 25%, var(--color1) 25%, var(--color1) 75%, var(--color2) 75%, var(--color2));
+    background-size: 90px 90px;
+    background-position: 0 0, 135px 135px;
+  }
 
 
 
@@ -82,16 +85,35 @@ padding-left: 7%;
     text-align: center;
     font-size: 50px;
     font-weight: 600;
-    background-image: radial-gradient(circle, #553c9a, #ee4b2b);;
+    background-image: radial-gradient(circle, #553c9a, #ee4b2b);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
 }
 
-.tablaDietaEst{
+.tablaDietaEst {
     margin-left: 35%;
 }
 
+<<<<<<< Updated upstream
+=======
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    
+}
+
+.macro{
+    width: 300px;
+}
+
+
+
+
+>>>>>>> Stashed changes
 #myCarousel{
     height: 300px;
     margin-bottom: 13%;
