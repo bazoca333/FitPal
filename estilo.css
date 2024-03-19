@@ -101,12 +101,18 @@ padding-left: 7%;
     width: 300px;
 }
 
-#myCarousel{
-    height: 300px;
+
+/* .divider {
+    height: 5rem;
+} */
+
+
+/* #myCarousel{
+    
     margin-bottom: 13%;
-    margin-top: -0.05%;
+    margin-top: -0.05%; 
 }
 
 .carousel-control-prev , .carousel-control-next {
     margin-top: 10%;
-}
+} */
