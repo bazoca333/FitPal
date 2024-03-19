@@ -64,7 +64,8 @@ padding: 0;
 .dietas{
 display: flex;
 flex-direction: row;
-padding-left: 7%;
+justify-content: center;
+
 }
 
 .dietasBoton{
@@ -82,6 +83,7 @@ padding-left: 7%;
 }
 
 .tablaDietaEst {
+    margin-top: 50px;
     margin-left: 35%;
 }
 .tablaDietaEst table{
