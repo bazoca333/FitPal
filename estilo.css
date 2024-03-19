@@ -84,11 +84,16 @@ padding-left: 7%;
 .tablaDietaEst {
     margin-left: 35%;
 }
+.tablaDietaEst table{
+    border-collapse: collapse;
+    box-shadow:0 5px 10px #553c9a;
+    overflow: hidden;
+}
 
-table, th, td {
+.tablaDietaEst td {
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 15px;
+    padding: 1rem 2rem;
     
 }
 
