@@ -22,19 +22,14 @@ body{
 
 
 
-   .nav-link {
+   /* .nav-link {
     transition: transform 0.3s;
   }
   
   .nav-link:hover {
     transform: scale(1.3); 
-  }
+  } */
 
-
- .footer-container {
-    width: 100%;
-    margin-bottom: -2.4%;
-}
 
 
 
@@ -109,12 +104,11 @@ justify-content: center;
 }
 
 
-/* #myCarousel{
-    
-    margin-bottom: 13%;
+ #myCarousel{
     margin-top: -0.05%; 
-}
+} 
+ 
+ .carousel-control-prev , .carousel-control-next {
+    margin-bottom: 10%; 
+}   
 
-.carousel-control-prev , .carousel-control-next {
-    margin-top: 10%;
-} */
