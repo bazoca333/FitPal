@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/0b959b3b27.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+<body class="contacto">
 <header>
   <div class="px-3 py-3 bg-success border-bottom">
     <div class="container">
@@ -55,36 +55,48 @@
 
 
   
-    <form>
-      <div class="row">
-        <div class="col">
+
+ <div class="  mx-auto my-5  w-50  border border-5 border-success rounded-1">
+      <div class="bg-success py-3" >
+        <h4 class="fw-bold text-white"><i class=" mx-3 fa-solid fa-phone"></i>¡Contáctanos! Escríbenos tus consultas y te responderemos lo antes posible.</h4>
+      </div>
+    <form class=" bg-white  bg-opacity-75">
+      <div class="row mx-1">
+        <div class="col  fs-5 fw-bold mt-2">
           <label for="text">Nombre</label>
-          <input type="text" class="form-control" placeholder="Nomrbe">
+          <input type="text" class="form-control">
         </div>
-        <div class="col">
+        <div class="col fs-5  fw-bold mt-2">
           <label for="exampleInputEmail1">Apellido</label>
-          <input type="text" class="form-control" placeholder="Apellido">
+          <input type="text" class="form-control" >
         </div>
       </div>
-      <div class="row">
-        <div class="col">
+      <div class="row m-1 my-3">
+        <div class="col  fs-5 fw-bold">
           <label for="exampleInputEmail1">Correo electrónico</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
         </div>
-        <div class="col">
-          <label for="">Telefono</label>
-          <input type="tel" class="form-control" placeholder="Telefono">
+        <div class="col  fs-5 fw-bold m-1">
+          <label for="">Teléfono</label>
+          <input type="tel" class="form-control" >
         </div>
     </div>
-      <div class="form-group">
+      <div class="form-group fs-5 fw-bold mx-3 my-3">
         <label for="exampleFormControlTextarea1">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
       </div>
-      <button type="reset" class="btn btn-danger">Limpiar</button>
-      <button type="submit" class="btn btn-primary">Enviar</button>
+
+      <div class="row ">
+        <div class="col text-center my-5 ">
+          <button type="reset" class="btn btn-lg btn-dark me-3">Borrar</button>
+        </div>
+        <div class="col text-center my-5 ">
+          <button type="submit" class=" btn btn-lg btn-success">Enviar</button>
+        </div>
+      </div>
+
     </form>
-
-
+  </div>
 
 
   
@@ -95,20 +107,20 @@
 
 </body>
 
-<div class="footer-container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-success">
-    <div class="col-md-4 d-flex align-items-center ">
-      <a href="main.html" class="mb-3 me-2 mb-md-0 text-body-dark text-decoration-none lh-1">
-          <img  class = "logo-footer" src="images/logo2.png" alt="logo" width="90px" height="45px">
-      </a>
-      <span class="mb-3 mb-md-0 text-body-secondary txt-footer">© 2024 FitPal</span>
-    </div>
 
-    <div class="redes">
-      <a href="https://twitter.com/?logout=1708680624327"><i class="fa-brands fa-twitter"></i></a>
-      <a href="https://www.instagram.com/_recetas_saludables_/?hl=es"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://github.com/bazoca333/FitPal.git"><i class="fa-brands fa-github"></i></a> 
-  </div>
+  <footer class=" fixed-bottom d-flex flex-wrap justify-content-between align-items-center py-3  bg-success">
+      <div class="col-md-4 d-flex align-items-center ">
+        <a href="main.html" class="mb-3 me-2 mb-md-0 text-body-dark text-decoration-none lh-1">
+            <img  class = "logo-footer" src="images/logo2.png" alt="logo" width="90px" height="45px">
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary txt-footer">© 2024 FitPal</span>
+      </div>
+
+      <div class="redes">
+        <a href="https://twitter.com/?logout=1708680624327"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/_recetas_saludables_/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/bazoca333/FitPal.git"><i class="fa-brands fa-github"></i></a> 
+      </div>
   </footer>
-</div>
+
 </html>

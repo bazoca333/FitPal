@@ -112,3 +112,9 @@ justify-content: center;
     margin-bottom: 10%; 
 }   
 
+.contacto {
+    background-image: url('images/Contacto/redimensionar.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+
+}
