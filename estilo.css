@@ -116,5 +116,10 @@ justify-content: center;
     background-image: url('images/Contacto/redimensionar.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat; 
+}
 
+.banner {
+    background-image: url('images/Alimentos/banner2.jpg'); 
+    background-size: cover;  
+    background-position: center;
 }
