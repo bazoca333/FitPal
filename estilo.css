@@ -102,3 +102,49 @@ justify-content: center;
     background-size: cover;  
     background-position: center;
 }
+    
+
+/* TABLA*/
+ /* Estilos para la tabla */
+ table {
+    border-collapse: collapse;
+    width: 80%; 
+    margin: 0 auto; 
+    border: 1px solid #ddd;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    color: black;
+  }
+
+  /* Estilos para resaltar los días de la semana */
+  th:first-child {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  /* Transiciones en hover */
+  td:hover {
+    background-color: #cccbcb9c;
+    transition: background-color 0.3s;
+  }
+
+  /* Escalado en hover para los días de la semana */
+  th:hover {
+    background-color: #4CAF50;
+    transition: background-color 0.3s;
+  }
+
+/* Estilo para resaltar la columna del día de la semana actual */
+#tablaDietas th.highlight {
+    background-color: #4CAF50;
+    color: white;
+}
+
