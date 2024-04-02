@@ -71,32 +71,11 @@ justify-content: center;
     text-align: center;
     font-size: 50px;
     font-weight: 600;
-    background-image: radial-gradient(circle, #553c9a, #ee4b2b);
-    color: transparent;
+    color: green;
     background-clip: text;
     -webkit-background-clip: text;
 }
 
-.tablaDietaEst {
-    margin-top: 50px;
-    margin-left: 35%;
-}
-.tablaDietaEst table{
-    border-collapse: collapse;
-    box-shadow:0 5px 10px #553c9a;
-    overflow: hidden;
-}
-
-.tablaDietaEst td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 1rem 2rem;
-    
-}
-
-.macro{
-    width: 300px;
-}
 
 
 .divider {
