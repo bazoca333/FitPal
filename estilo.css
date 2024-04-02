@@ -105,46 +105,47 @@ justify-content: center;
     
 
 /* TABLA*/
- /* Estilos para la tabla */
- table {
+/* Estilos para la tabla */
+table {
     border-collapse: collapse;
-    width: 80%; 
-    margin: 0 auto; 
+    width: 80%;
+    margin: 0 auto;
     border: 1px solid #ddd;
-  }
+}
 
-  th, td {
+th,
+td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
-  }
+}
 
-  th {
+th {
     background-color: #f2f2f2;
     color: black;
-  }
+}
 
-  /* Estilos para resaltar los días de la semana */
-  th:first-child {
-    background-color: #4CAF50;
-    color: white;
-  }
-
-  /* Transiciones en hover */
-  td:hover {
-    background-color: #cccbcb9c;
-    transition: background-color 0.3s;
-  }
-
-  /* Escalado en hover para los días de la semana */
-  th:hover {
-    background-color: #4CAF50;
-    transition: background-color 0.3s;
-  }
-
-/* Estilo para resaltar la columna del día de la semana actual */
-#tablaDietas th.highlight {
+/* Estilos para resaltar los días de la semana */
+th:first-child {
     background-color: #4CAF50;
     color: white;
 }
 
+
+/* Escalado en hover para los días de la semana */
+th:hover {
+    background-color: #4CAF50;
+    transition: background-color 0.3s;
+}
+
+/* Estilo para resaltar las celdas de texto del mismo día de la semana */
+/* Estilo para resaltar las celdas de texto del mismo día de la semana */
+.currentDay {
+    background-color: #cccbcb9c; /* Color de resaltado */
+}
+/* Estilo para resaltar el día de la semana actual */
+
+.highlight {
+    background-color: #4CAF50;
+    color: white;
+}

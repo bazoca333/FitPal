@@ -78,45 +78,71 @@
     </tr>
     <tr>
       <th class="highlight">Desayuno</th>
-      <td>Claras de huevo revueltas con espinacas</td>
-      <td>Avena con frutas</td>
-      <td>Yogur griego bajo en grasa con nueces</td>
-      <td>Tostadas integrales con aguacate</td>
-      <td>Batido de proteínas con leche de almendras</td>
-      <td>Revuelto de tofu con vegetales</td>
-      <td>Tortilla de claras con verduras</td>
+      <td class="lunesTexto">Claras de huevo revueltas con espinacas</td>
+      <td class="martesTexto">Avena con frutas</td>
+      <td class="miercolesTexto">Yogur griego bajo en grasa con nueces</td>
+      <td class="juevesTexto">Tostadas integrales con aguacate</td>
+      <td class="viernesTexto">Batido de proteínas con leche de almendras</td>
+      <td class="sabadoTexto">Revuelto de tofu con vegetales</td>
+      <td class="domingoTexto">Tortilla de claras con verduras</td>
     </tr>
     <tr>
       <th>Comida</th>
-      <td>Pechuga de pollo a la plancha con ensalada verde</td>
-      <td>Salteado de verduras con tofu</td>
-      <td>Salmón al horno con brócoli</td>
-      <td>Ensalada de atún y garbanzos</td>
-      <td>Filete de pavo con espárragos</td>
-      <td>Ensalada de quinoa y vegetales</td>
-      <td>Filete de pescado al vapor con espinacas</td>
+      <td class="lunesTexto">Pechuga de pollo a la plancha con ensalada verde</td>
+      <td class="martesTexto">Salteado de verduras con tofu</td>
+      <td class="miercolesTexto">Salmón al horno con brócoli</td>
+      <td class="juevesTexto">Ensalada de atún y garbanzos</td>
+      <td class="viernesTexto">Filete de pavo con espárragos</td>
+      <td class="sabadoTexto">Ensalada de quinoa y vegetales</td>
+      <td class="domingoTexto">Filete de pescado al vapor con espinacas</td>
     </tr>
     <tr>
       <th class="highlight">Merienda</th>
-      <td>Yogur griego bajo en grasa con frutos secos</td>
-      <td>Vegetales crudos con hummus</td>
-      <td>Fruta fresca (manzana, pera, o naranja)</td>
-      <td>Batido de proteínas con agua</td>
-      <td>Palitos de zanahoria con salsa de yogur</td>
-      <td>Huevo duro con tomates cherry</td>
-      <td>Smoothie verde con espinacas y plátano</td>
+      <td class="lunesTexto">Yogur griego bajo en grasa con frutos secos</td>
+      <td class="martesTexto">Vegetales crudos con hummus</td>
+      <td class="miercolesTexto">Fruta fresca (manzana, pera, o naranja)</td>
+      <td class="juevesTexto">Batido de proteínas con agua</td>
+      <td class="viernesTexto">Palitos de zanahoria con salsa de yogur</td>
+      <td class="sabadoTexto">Huevo duro con tomates cherry</td>
+      <td class="domingoTexto">Smoothie verde con espinacas y plátano</td>
     </tr>
     <tr>
       <th class="highlight">Cena</th>
-      <td>Ensalada de salmón ahumado</td>
-      <td>Caldo de verduras con tofu</td>
-      <td>Ensalada de pollo con aguacate</td>
-      <td>Verduras al vapor con quinoa</td>
-      <td>Champiñones rellenos de espinacas y queso feta</td>
-      <td>Pechuga de pollo al limón con espárragos</td>
-      <td>Sopa de vegetales casera</td>
+      <td class="lunesTexto">Ensalada de salmón ahumado</td>
+      <td class="martesTexto">Caldo de verduras con tofu</td>
+      <td class="miercolesTexto">Ensalada de pollo con aguacate</td>
+      <td class="juevesTexto">Verduras al vapor con quinoa</td>
+      <td class="viernesTexto">Champiñones rellenos de espinacas y queso feta</td>
+      <td class="sabadoTexto">Pechuga de pollo al limón con espárragos</td>
+      <td class="domingoTexto">Sopa de vegetales casera</td>
     </tr>
-  </table>
+</table>
+
+<script>
+// Obtener el día de la semana actual
+var today = new Date();
+var day = today.getDay();
+
+// Obtener el nombre del día de la semana
+var dayName = getDayName(day);
+
+// Agregar clase de resaltado al th correspondiente al día actual
+document.getElementById(dayName).classList.add('highlight');
+
+// Agregar clase específica para el día actual a las celdas de texto correspondientes
+var textoCells = document.getElementsByClassName(dayName + 'Texto');
+for (var i = 0; i < textoCells.length; i++) {
+    textoCells[i].classList.add('currentDay');
+}
+
+// Función para obtener el nombre del día de la semana
+function getDayName(day) {
+    var days = ['domingo', 'lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];
+    return days[day];
+}
+
+</script>
+
   
   
 
@@ -148,20 +174,7 @@
         
     </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script>
-    // Obtener el día de la semana actual
-    var today = new Date();
-    var day = today.getDay();
 
-    // Agregar clase de resaltado al th correspondiente al día actual
-    document.getElementById(getDayName(day)).classList.add('highlight');
-
-    // Función para obtener el nombre del día de la semana
-    function getDayName(day) {
-        var days = ['domingo', 'lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];
-        return days[day];
-    }
-</script>
 </body>
 
 <div class="footer-container">
