@@ -107,6 +107,7 @@ justify-content: center;
 /* TABLA*/
 /* Estilos para la tabla */
 table {
+    
     border-collapse: collapse;
     width: 80%;
     margin: 0 auto;
