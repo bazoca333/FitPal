@@ -4,10 +4,10 @@
     padding: 3%;
 } */
 
-.card{
+.dietas .card{
     transition: transform 0.3s; 
 }
-.card:hover{
+.dietas .card:hover{
     transform: scale(1.05); 
       
 }
@@ -149,4 +149,15 @@ th:hover {
 .highlight {
     background-color: #4CAF50;
     color: white;
+}
+
+/* PÁGINA RECETAS */
+.receta{
+    margin-top: 3%; 
+    margin-bottom: 3%;
+}
+
+.receta .card{
+    width: 90%;
+    margin: auto;
 }
