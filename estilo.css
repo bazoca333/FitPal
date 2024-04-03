@@ -110,6 +110,9 @@ justify-content: center;
     color: inherit;
     text-decoration: none;
 }
+#tablaDietas td:hover {
+    background-color: #eaf5e4; /* Cambia a tu color verde claro */
+  }
 
 table {
     
