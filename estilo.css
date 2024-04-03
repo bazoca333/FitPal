@@ -105,7 +105,12 @@ justify-content: center;
     
 
 /* TABLA*/
-/* Estilos para la tabla */
+
+#tablaDietas a {
+    color: inherit;
+    text-decoration: none;
+}
+
 table {
     
     border-collapse: collapse;
@@ -126,25 +131,21 @@ th {
     color: black;
 }
 
-/* Estilos para resaltar los días de la semana */
 th:first-child {
     background-color: #4CAF50;
     color: white;
 }
 
 
-/* Escalado en hover para los días de la semana */
 th:hover {
     background-color: #4CAF50;
     transition: background-color 0.3s;
 }
 
-/* Estilo para resaltar las celdas de texto del mismo día de la semana */
-/* Estilo para resaltar las celdas de texto del mismo día de la semana */
 .currentDay {
-    background-color: #cccbcb9c; /* Color de resaltado */
+    background-color: #cccbcb9c;
 }
-/* Estilo para resaltar el día de la semana actual */
+
 
 .highlight {
     background-color: #4CAF50;
