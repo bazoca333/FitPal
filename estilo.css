@@ -103,6 +103,11 @@ justify-content: center;
     background-position: center;
 }
     
+.banner_estadisticas {
+    background-image: url('images/imgEstadisticas.png'); 
+    background-size: cover;  
+    background-position: center;
+}
 
 /* TABLA*/
 
@@ -117,7 +122,7 @@ justify-content: center;
 table {
     
     border-collapse: collapse;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     border: 1px solid #ddd;
 }
@@ -135,13 +140,13 @@ th {
 }
 
 th:first-child {
-    background-color: #4CAF50;
+    background-color: #198754;
     color: white;
 }
 
 
 th:hover {
-    background-color: #4CAF50;
+    background-color: #198754;
     transition: background-color 0.3s;
 }
 
@@ -151,7 +156,7 @@ th:hover {
 
 
 .highlight {
-    background-color: #4CAF50;
+    background-color: #198754;
     color: white;
 }
 
