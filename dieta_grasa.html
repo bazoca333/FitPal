@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0b959b3b27.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilo.css">
+    
 </head>
 <body>
 <header>
@@ -60,71 +61,75 @@
   </div>
 </header>
 
-  <h1 class="titulo" style="margin-top: 6%;">Dieta para PERDER GRASA</h1>
-<div class="container" style="margin-top: 3%; margin-bottom: 3%;" >
-
-  <table border="1" id="tablaDietas">
-    <tr>
-      <th></th>
-      <th id="lunes">Lunes</th>
-      <th id="martes">Martes</th>
-      <th id="miercoles">Miércoles</th>
-      <th id="jueves">Jueves</th>
-      <th id="viernes">Viernes</th>
-      <th id="sabado">Sábado</th>
-      <th id="domingo">Domingo</th>
-    </tr>
-    <tr>
-      <th class="highlight">Desayuno</th>
-      <td class="lunesTexto"><a href="Recetas/claras_rebueltas_espinacas.html">Claras de huevo revueltas con espinacas</a></td>
-      <td class="martesTexto">Avena con frutas</td>
-      <td class="miercolesTexto">Yogur griego bajo en grasa con nueces</td>
-      <td class="juevesTexto">Tostadas integrales con aguacate</td>
-      <td class="viernesTexto">Batido de proteínas con leche de almendras</td>
-      <td class="sabadoTexto">Revuelto de tofu con vegetales</td>
-      <td class="domingoTexto">Tortilla de claras con verduras</td>
-    </tr>
-    <tr>
-      <th>Comida</th>
-      <td class="lunesTexto"><a href="Recetas/pechuga_pollo_ensalada.html">Pechuga de pollo a la plancha con ensalada</a></td>
-      <td class="martesTexto">Salteado de verduras con tofu</td>
-      <td class="miercolesTexto">Salmón al horno con brócoli</td>
-      <td class="juevesTexto">Ensalada de atún y garbanzos</td>
-      <td class="viernesTexto">Filete de pavo con espárragos</td>
-      <td class="sabadoTexto">Ensalada de quinoa y vegetales</td>
-      <td class="domingoTexto">Filete de pescado al vapor con espinacas</td>
-    </tr>
-    <tr>
-      <th class="highlight">Merienda</th>
-      <td class="lunesTexto"><a href="Recetas/yogur_griego_frutos_secos.html">Yogur griego bajo en grasa con frutos secos</a></td>
-      <td class="martesTexto">Vegetales crudos con hummus</td>
-      <td class="miercolesTexto">Fruta fresca (manzana, pera, o naranja)</td>
-      <td class="juevesTexto">Batido de proteínas con agua</td>
-      <td class="viernesTexto">Palitos de zanahoria con salsa de yogur</td>
-      <td class="sabadoTexto">Huevo duro con tomates cherry</td>
-      <td class="domingoTexto">Smoothie verde con espinacas y plátano</td>
-    </tr>
-    <tr>
-      <th class="highlight">Cena</th>
-      <td class="lunesTexto"><a href="Recetas/ensalada_salmon_ahumado.html">Ensalada de salmón ahumado</a></td>
-      <td class="martesTexto">Caldo de verduras con tofu</td>
-      <td class="miercolesTexto">Ensalada de pollo con aguacate</td>
-      <td class="juevesTexto">Verduras al vapor con quinoa</td>
-      <td class="viernesTexto">Champiñones rellenos de espinacas y queso feta</td>
-      <td class="sabadoTexto">Pechuga de pollo al limón con espárragos</td>
-      <td class="domingoTexto">Sopa de vegetales casera</td>
-    </tr>
-    <tr>
-      <td colspan="8">(Click en la receta para más detalles) Actualmente solo disponibles los lunes</td>
-    </tr>
+<h1 class="titulo text-center mt-5">Dieta para PERDER GRASA</h1>
+<div class="container" style="margin-top: 3%; margin-bottom: 3%;">
+  <table class="table table-striped table-bordered">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Día</th>
+        <th scope="col">Desayuno</th>
+        <th scope="col">Comida</th>
+        <th scope="col">Merienda</th>
+        <th scope="col">Cena</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Lunes</th>
+        <td><a href="Recetas/claras_rebueltas_espinacas.html">Claras de huevo revueltas con espinacas</a></td>
+        <td><a href="Recetas/pechuga_pollo_ensalada.html">Pechuga de pollo a la plancha con ensalada</a></td>
+        <td><a href="Recetas/yogur_griego_frutos_secos.html">Yogur griego bajo en grasa con frutos secos</a></td>
+        <td><a href="Recetas/ensalada_salmon_ahumado.html">Ensalada de salmón ahumado</a></td>
+      </tr>
+      <tr>
+        <th scope="row">Martes</th>
+        <td>Avena con frutas</td>
+        <td>Salteado de verduras con tofu</td>
+        <td>Vegetales crudos con hummus</td>
+        <td>Caldo de verduras con tofu</td>
+      </tr>
+      <tr>
+        <th scope="row">Miércoles</th>
+        <td>Yogur griego bajo en grasa con nueces</td>
+        <td>Salmón al horno con brócoli</td>
+        <td>Fruta fresca (manzana, pera, o naranja)</td>
+        <td>Ensalada de pollo con aguacate</td>
+      </tr>
+      <tr>
+        <th scope="row">Jueves</th>
+        <td>Tostadas integrales con aguacate</td>
+        <td>Ensalada de atún y garbanzos</td>
+        <td>Batido de proteínas con agua</td>
+        <td>Verduras al vapor con quinoa</td>
+      </tr>
+      <tr>
+        <th scope="row">Viernes</th>
+        <td>Batido de proteínas con leche de almendras</td>
+        <td>Filete de pavo con espárragos</td>
+        <td>Palitos de zanahoria con salsa de yogur</td>
+        <td>Champiñones rellenos de espinacas y queso feta</td>
+      </tr>
+      <tr>
+        <th scope="row">Sábado</th>
+        <td>Revuelto de tofu con vegetales</td>
+        <td>Ensalada de quinoa y vegetales</td>
+        <td>Huevo duro con tomates cherry</td>
+        <td>Pechuga de pollo al limón con espárragos</td>
+      </tr>
+      <tr>
+        <th scope="row">Domingo</th>
+        <td>Tortilla de claras con verduras</td>
+        <td>Filete de pescado al vapor con espinacas</td>
+        <td>Smoothie verde con espinacas y plátano</td>
+        <td>Sopa de vegetales casera</td>
+      </tr>
+    </tbody>
   </table>
-
-
-
-    
   
+</div>
+
 <script>
-  var today = new Date();
+      var today = new Date();
   var day = today.getDay();
   
   var dayName = getDayName(day);
@@ -140,31 +145,27 @@
       var days = ['domingo', 'lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];
       return days[day];
   }
-  
-  </script>
+</script>
 
-</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<footer class="py-3 border-top bg-success">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-md-4">
+        <a href="index.html" class="text-body-dark text-decoration-none">
+          <img class="logo-footer" src="images/logo2.png" alt="logo" width="90px" height="45px">
+        </a>
+        <span class="text-body-secondary ml-2">&copy; 2024 FitPal</span>
+      </div>
+      <div class="col-md-4 text-end">
+        <a href="https://twitter.com/?logout=1708680624327" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/_recetas_saludables_/?hl=es" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/bazoca333/FitPal.git" class="text-white"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </body>
-<div class="footer-container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-success">
-    <div class="col-md-4 d-flex align-items-center ">
-      <a href="index.html" class="mb-3 me-2 mb-md-0 text-body-dark text-decoration-none lh-1">
-          <img  class = "logo-footer" src="images/logo2.png" alt="logo" width="90px" height="45px">
-      </a>
-      <span class="mb-3 mb-md-0 text-body-secondary txt-footer">© 2024 FitPal</span>
-    </div>
-
-    <div class="redes">
-      <a href="https://twitter.com/?logout=1708680624327"><i class="fa-brands fa-twitter"></i></a>
-      <a href="https://www.instagram.com/_recetas_saludables_/?hl=es"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://github.com/bazoca333/FitPal.git"><i class="fa-brands fa-github"></i></a> 
-  </div>
-  </footer>
-</div>
 </html>
