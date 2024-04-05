@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0b959b3b27.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 <body>
 <header>
@@ -26,7 +28,7 @@
           <li>
             <a href="estadisticas.html" class="nav-link text-white">
               <i class="fa-solid fa-chart-pie"></i>              
-              Estadisticas
+              Dietas
             </a>
           </li>
           <li>
@@ -66,70 +68,96 @@
 <div class="container" style="margin-top: 3%; margin-bottom: 3%;">
   <table class="table table-striped table-bordered">
     <thead class="thead-dark">
-      <tr>
-        <th scope="col">Día</th>
-        <th scope="col">Desayuno</th>
-        <th scope="col">Comida</th>
-        <th scope="col">Merienda</th>
-        <th scope="col">Cena</th>
-      </tr>
+        <tr>
+            <th scope="col">Día</th>
+            <th scope="col">Desayuno</th>
+            <th scope="col">Comida</th>
+            <th scope="col">Merienda</th>
+            <th scope="col">Cena</th>
+        </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">Lunes</th>
-        <td><a class="text-decoration-none text-dark" href="Recetas/batido_proteinas.html">Batido de proteínas con avena y plátano</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/pollo_arroz_integral.html">Pechuga de pollo a la parrilla con arroz integral</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/yogur_griego_frutos_secos.html">Yogur griego bajo en grasa con frutos secos</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/ensalada_quinoa_pollo.html">Ensalada de quinoa con pollo a la parrilla</a></td>
-      </tr>
-      <tr>
-        <th scope="row">Martes</th>
-        <td><a class="text-decoration-none text-dark" href="Recetas/batido_proteinas.html">Tortilla de claras con espinacas y queso bajo en grasa</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/filete_salmon_quinoa.html">Filete de salmón al horno con quinoa</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/batido_proteinas_leche_almedras.html">Batido de proteínas con leche de almendras</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/tortilla_espinacas_queso.html">Tortilla de espinacas y queso bajo en grasa</a></td>
-      </tr>
-      <tr>
-        <th scope="row">Miércoles</th>
-        <td><a class="text-decoration-none text-dark" href="Recetas/tostadas_integrales_crema_cacahuate.html">Tostadas integrales con crema de cacahuate</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/carne_magra_batata_asada.html">Carne magra (ternera/pavo) con batata asada</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/tostadas_pan_integral_aguacate.html">Tostadas de pan integral con aguacate</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/salmon_horno_esparragos.html">Salmón al horno con espárragos</a></td>
-      </tr>
-      <tr>
-        <th scope="row">Jueves</th>
-        <td><a class="text-decoration-none text-dark" href="Recetas/yogur_griego_granola_frutos_secos.html">Yogur griego con granola y frutos secos</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/ensalada_atun_garbanzos_aguacate.html">Ensalada de atún con garbanzos y aguacate</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/cottage_cheese_pina.html">Cottage cheese con piña</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/pechuga_pollo_limón_brocoli_vapor.html">Pechuga de pollo al limón con brócoli al vapor</a></td>
-      </tr>
-      <tr>
-        <th scope="row">Viernes</th>
-        <td><a class="text-decoration-none text-dark" href="Recetas/batido_proteinas_leche_almedras_frutos_rojos.html">Batido de proteínas con leche de almendras y frutos rojos</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/ternera_plancha_pure_boniatos.html">Ternera a la plancha con puré de boniatos</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/tortitas_arroz_crema_cacahuate.html">Tortitas de arroz con crema de cacahuate</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/ensalada_lentejas_aguacate.html">Ensalada de lentejas con aguacate</a></td>
-      </tr>
-      <tr>
-        <th scope="row">Sábado</th>
-        <td><a class="text-decoration-none text-dark" href="Recetas/huevos_revueltos_aguacate_tomate.html">Huevos revueltos con aguacate y tomate</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/ensalada_pasta_integral_pollo.html">Ensalada de pasta integral con pollo a la parrilla</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/yogur_griego_frutos_secos_miel.html">Yogur griego con frutos secos y miel</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/filete_tilapia_horno_verduras_asadas.html">Filete de tilapia al horno con verduras asadas</a></td>
-      </tr>
-      <tr>
-        <th scope="row">Domingo</th>
-        <td><a class="text-decoration-none text-dark" href="Recetas/pan_integral_mantequilla_almedras_platano.html">Pan integral con mantequilla de almendras y plátano</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/tacos_pavo_tortillas_integrales_vegetales.html">Tacos de pavo con tortillas integrales y vegetales</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/huevo_duro_zanahorias_baby.html">Huevo duro con zanahorias baby</a></td>
-        <td><a class="text-decoration-none text-dark" href="Recetas/sopa_pollo_vegetales_casera.html">Sopa de pollo y vegetales casera</a></td>
-      </tr>
+        <tr>
+            <th scope="row">Lunes</th>
+            <td><a onclick="noexiste()">Batido de proteínas con avena y plátano</a></td>
+            <td><a onclick="noexiste()">Pechuga de pollo a la parrilla con arroz integral</a></td>
+            <td><a onclick="noexiste()">Yogur griego bajo en grasa con frutos secos</a></td>
+            <td><a onclick="noexiste()">Ensalada de quinoa con pollo a la parrilla</a></td>
+        </tr>
+        <tr>
+            <th scope="row">Martes</th>
+            <td><a onclick="noexiste()">Tortilla de claras con espinacas y queso bajo en grasa</a></td>
+            <td><a onclick="noexiste()">Filete de salmón al horno con quinoa</a></td>
+            <td><a onclick="noexiste()">Batido de proteínas con leche de almendras</a></td>
+            <td><a onclick="noexiste()">Tortilla de espinacas y queso bajo en grasa</a></td>
+        </tr>
+        <tr>
+            <th scope="row">Miércoles</th>
+            <td><a onclick="noexiste()">Tostadas integrales con crema de cacahuate</a></td>
+            <td><a onclick="noexiste()">Carne magra (ternera/pavo) con batata asada</a></td>
+            <td><a onclick="noexiste()">Tostadas de pan integral con aguacate</a></td>
+            <td><a onclick="noexiste()">Salmón al horno con espárragos</a></td>
+        </tr>
+        <tr>
+            <th scope="row">Jueves</th>
+            <td><a onclick="noexiste()">Yogur griego con granola y frutos secos</a></td>
+            <td><a onclick="noexiste()">Ensalada de atún con garbanzos y aguacate</a></td>
+            <td><a onclick="noexiste()">Cottage cheese con piña</a></td>
+            <td><a onclick="noexiste()">Pechuga de pollo al limón con brócoli al vapor</a></td>
+        </tr>
+        <tr>
+            <th scope="row">Viernes</th>
+            <td><a onclick="noexiste()">Batido de proteínas con leche de almendras y frutos rojos</a></td>
+            <td><a onclick="noexiste()">Ternera a la plancha con puré de boniatos</a></td>
+            <td><a onclick="noexiste()">Tortitas de arroz con crema de cacahuate</a></td>
+            <td><a onclick="noexiste()">Ensalada de lentejas con aguacate</a></td>
+        </tr>
+        <tr>
+            <th scope="row">Sábado</th>
+            <td><a onclick="noexiste()">Huevos revueltos con aguacate y tomate</a></td>
+            <td><a onclick="noexiste()">Ensalada de pasta integral con pollo a la parrilla</a></td>
+            <td><a onclick="noexiste()">Yogur griego con frutos secos y miel</a></td>
+            <td><a onclick="noexiste()">Filete de tilapia al horno con verduras asadas</a></td>
+        </tr>
+        <tr>
+            <th scope="row">Domingo</th>
+            <td><a onclick="noexiste()">Pan integral con mantequilla de almendras y plátano</a></td>
+            <td><a onclick="noexiste()">Tacos de pavo con tortillas integrales y vegetales</a></td>
+            <td><a onclick="noexiste()">Huevo duro con zanahorias baby</a></td>
+            <td><a onclick="noexiste()">Sopa de pollo y vegetales casera</a></td>
+        </tr>
     </tbody>
-  </table>
+</table>
+
 </div>
 
 
+<script>
+  var today = new Date();
+var day = today.getDay();
 
+var dayName = getDayName(day);
+
+document.getElementById(dayName).classList.add('highlight');
+
+var textoCells = document.getElementsByClassName(dayName + 'Texto');
+for (var i = 0; i < textoCells.length; i++) {
+  textoCells[i].classList.add('currentDay');
+}
+
+function getDayName(day) {
+  var days = ['domingo', 'lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];
+  return days[day];
+}
+
+function noexiste(){
+    Swal.fire({
+        icon: "error",
+        title: "Error...",
+        text: "Receta no disponible!",
+    });
+}
+</script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
